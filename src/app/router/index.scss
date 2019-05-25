@@ -1,0 +1,45 @@
+.ant{
+    &-layout{
+        background: unset;
+        &-header{
+            background: #FAFAFB;
+            line-height: 50px;
+            height: 50px;
+            padding: 0;
+        }
+    }
+
+    &-menu{
+        width: unset !important;
+        padding-top: 30px;
+        height: 92vh;
+        &-item{
+            &-group{
+                padding-left: 9px;
+            }
+        }
+    }
+
+
+}
+.pageHeader{
+
+    &-headerSearch{
+        &-icon{
+            display: none;
+        }
+    }
+
+    @media (max-width: 780px){
+        
+        &-headerSearch{
+            &-box{
+                display: none;
+            }
+            &-icon{
+                display: block;
+            }
+        }
+    }
+
+}
